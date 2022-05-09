@@ -30,5 +30,3 @@ export const signs = [
         traits: ['family', 'home', 'comfort', 'nourishment'],
     }
 ];
-
-console.log('hello from signs.js...');

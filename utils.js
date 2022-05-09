@@ -14,8 +14,12 @@ export function renderSign(sign) {
     const h4 = document.createElement('h4');
     h4.classList.add('saying');
     h4.textContent = `"${sign.saying}"`;
-    
-    div.append(h2, h3, img, h4);
+
+    const a = document.createElement('a');
+    a.href = `./signs/?id=${sign.id}`;
+
+    div.append(a, h2, h3, img, h4);
+    a.append(img);
     return div;
 }
 
@@ -45,11 +49,13 @@ export function renderListItem(sign) {
         li.textContent = trait;
         ul.append(li);
     }
-    
-    const a = document.createElement('a');
-    a.href = `./signs/?id=${sign.id}`;
 
-    a.append(h2, h3, img, h4, p, ul);
-    div.append(a);
+    div.append(a, h2, h3, h4, p, img, ul);
+    a.append(img);
+    
     return div;
+}
+
+export function findById(id, data) {
+    return data.find((item) => item.id === id);
 }

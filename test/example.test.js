@@ -22,7 +22,7 @@ test('time to test a function', (expect) => {
 
 test('renderSign() function', (expect) => {
 
-    const expected = `<div class="sign"><h2>sagittarius</h2><h3>(nov.21 - dec.21)</h3><img src="./assets/sagittarius.jpg"><h4 class="saying">"seeking, seeking, seeking"</h4><p>sagittarius is a sun sign in the 9th house associated with:</p><ul><li>higher education</li><li>foreign travel</li><li>spirituality</li><li>wisdom</li></ul></div>`;
+    const expected = `<div class="sign"><h2>sagittarius</h2><h3>(nov.21 - dec.21)</h3><img src="./assets/sagittarius.jpg"><h4 class="saying">"seeking, seeking, seeking"</h4></div>`;
 
     const actual = renderSign(signs[0]);
 

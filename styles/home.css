@@ -21,8 +21,12 @@ img {
     margin: 10px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(229, 224, 229);
-    color: rgb(255, 0, 225);
-    opacity: 80%;
+    color: black;
+    opacity: 60%;
+}
+
+.sign:hover {
+    opacity: 100%;
 }
 
 .saying {

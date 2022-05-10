@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // include jsdom for DOM use in tests on travis
-import jsdom from 'jsdom';
+const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 const { window } = new JSDOM(``, {
     url: 'http://localhost:5500'

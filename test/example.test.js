@@ -1,7 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 import { renderSign } from '../utils.js';
-
 import { signs } from '/data.js';
 
 const test = QUnit.test;
@@ -22,7 +21,7 @@ test('time to test a function', (expect) => {
 
 test('renderSign() function', (expect) => {
 
-    const expected = `<div class="sign"><h2>sagittarius</h2><h3>(nov.21 - dec.21)</h3><img src="./assets/sagittarius.jpg"><h4 class="saying">"seeking, seeking, seeking"</h4></div>`;
+    const expected = `<div class="sign"><a href="./signs/?id=1"><img src="./assets/sagittarius.jpg"></a><h2>sagittarius</h2><h3>(nov.21 - dec.21)</h3></div>`;
 
     const actual = renderSign(signs[0]);
 

@@ -11,21 +11,10 @@ export function renderSign(sign) {
     const img = document.createElement('img');
     img.src = sign.image;
 
-    const h4 = document.createElement('h4');
-    h4.classList.add('saying');
-    h4.textContent = `"${sign.saying}"`;
-
-    const ul = document.createElement('ul');
-    for (let trait of sign.traits) {
-        const li = document.createElement('li');
-        li.textContent = trait;
-        ul.append(li);
-    }
-
     const a = document.createElement('a');
     a.href = `./signs/?id=${sign.id}`;
 
-    div.append(a, h2, h3, img, h4, ul);
+    div.append(a, h2, h3, img);
     a.append(img);
 
     return div;

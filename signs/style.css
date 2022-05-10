@@ -12,19 +12,6 @@ main {
     color: white;
 }
 
-section {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
-}
-
 header {
     font-size: 3rem;
     font-weight: 500;
@@ -39,12 +26,4 @@ h2 {
 
 h1 {
     font-size: 2.8rem;
-}
-
-.gutter-right {
-    margin-right: 20px;
-}
-
-p {
-    margin: var(--gutter);
 }

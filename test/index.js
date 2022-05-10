@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // include jsdom for DOM use in tests on travis
-const jsdom = require('jsdom');
+import jsdom from 'jsdom';
 const { JSDOM } = jsdom;
 const { window } = new JSDOM(``, {
     url: 'http://localhost:5500'
@@ -15,4 +15,4 @@ global.URLSearchParams = window.URLSearchParams;
 global.URL = window.URL;
 
 require = require('esm')(module);
-module.exports = require('./tests.js');
+export * from "./tests.js";

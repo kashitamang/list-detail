@@ -1,1 +1,45 @@
-/* add home page styles here */
+img {
+    width: 100%;
+    border-radius: 10%;
+    border: none;
+    width: 80%;
+}
+
+#signs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+}
+
+.sign {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(229, 224, 229);
+    color: black;
+    opacity: 60%;
+}
+
+.sign:hover {
+    opacity: 100%;
+}
+
+.saying {
+    font-style: italic;
+}
+
+img:hover {
+    transform: rotateX(180deg);
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

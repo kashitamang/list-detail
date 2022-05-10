@@ -1,7 +1,7 @@
 body {
     /* feel free to update these css variables for a quick theme */
     background-image: url('/assets/background.png');
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
@@ -10,19 +10,6 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-section {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
 }
 
 header {
@@ -39,12 +26,4 @@ h2 {
 
 h1 {
     font-size: 2.8rem;
-}
-
-.gutter-right {
-    margin-right: 20px;
-}
-
-p {
-    margin: var(--gutter);
 }

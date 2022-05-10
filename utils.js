@@ -49,7 +49,7 @@ export function renderListItem(sign) {
         li.textContent = trait;
         ul.append(li);
     }
-
+    
     div.append(a, h2, h3, h4, p, img, ul);
     a.append(img);
     

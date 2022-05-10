@@ -7,7 +7,7 @@ export const signs = [
         saying: 'seeking, seeking, seeking',
         type: 'sun',
         house: '9th',
-        traits: ['higher education', 'foreign travel', 'spirituality', 'wisdom'],
+        traits: [' higher education', ' foreign travel', ' spirituality', ' wisdom'],
     },
     {
         id: '2',
@@ -17,7 +17,7 @@ export const signs = [
         saying: 'onward-- into the future!',
         type: 'air',
         house: '11th',
-        traits: ['faith', 'evolution', 'friendship', 'personal liberation'],
+        traits: [' faith', ' evolution', ' friendship', ' personal liberation'],
     },
     {
         id: '3',
@@ -27,6 +27,6 @@ export const signs = [
         saying: 'i feel, i wonder.',
         type: 'water',
         house: '4th',
-        traits: ['family', 'home', 'comfort', 'nourishment'],
+        traits: [' family', ' home', ' comfort', ' nourishment'],
     }
 ];
